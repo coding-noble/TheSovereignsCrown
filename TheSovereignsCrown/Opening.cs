@@ -23,8 +23,6 @@ namespace TheSovereignsCrown
 
             using JsonDocument doc = JsonDocument.Parse(jsonDataString);
 
-            MessageBox.Show($"{Program.loadedUser.Background.Replace(' ', '-').ToLower()}");
-
             JsonElement root = doc.RootElement;
             JsonElement testArray = root.GetProperty("backgrounds").GetProperty(Program.loadedUser.Class.Replace(' ', '-').ToLower()).GetProperty(Program.loadedUser.Background.Replace(' ', '-').ToLower());
 
