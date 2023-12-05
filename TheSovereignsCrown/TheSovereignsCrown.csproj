@@ -9,11 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="bin\Narratives\backstories.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="bin\Debug\net8.0-windows\" />
+    <None Update="backstories.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

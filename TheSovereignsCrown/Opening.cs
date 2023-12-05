@@ -15,9 +15,10 @@ namespace TheSovereignsCrown
         {
             string jsonFileName = "backstories.json";
             string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
-            string relativeFolderPath = @"..\..\Narratives\";
 
-            string jsonFilePath = Path.GetFullPath(Path.Combine(directoryPath, relativeFolderPath, jsonFileName));
+            string jsonFilePath = Path.GetFullPath(Path.Combine(directoryPath, jsonFileName));
+
+            MessageBox.Show(jsonFilePath);
 
             string jsonDataString = File.ReadAllText(jsonFilePath);
 
