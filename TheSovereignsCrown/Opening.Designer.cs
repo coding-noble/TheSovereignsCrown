@@ -39,7 +39,7 @@
             ContinueLBL.AutoSize = true;
             ContinueLBL.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             ContinueLBL.ForeColor = Color.Goldenrod;
-            ContinueLBL.Location = new Point(755, 1191);
+            ContinueLBL.Location = new Point(795, 1179);
             ContinueLBL.Name = "ContinueLBL";
             ContinueLBL.Size = new Size(287, 30);
             ContinueLBL.TabIndex = 0;
@@ -47,6 +47,7 @@
             // 
             // DescriptionBox
             // 
+            DescriptionBox.Anchor = AnchorStyles.None;
             DescriptionBox.Font = new Font("Segoe UI", 32F);
             DescriptionBox.ForeColor = Color.Goldenrod;
             DescriptionBox.Location = new Point(37, 147);
@@ -82,6 +83,7 @@
             MinimizeBox = false;
             Name = "Opening";
             Text = "Opening";
+            WindowState = FormWindowState.Maximized;
             KeyUp += Opening_KeyUp;
             ResumeLayout(false);
             PerformLayout();

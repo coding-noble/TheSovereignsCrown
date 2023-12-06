@@ -2,9 +2,9 @@
 {
     public string Name { get; set; }
     public GenderEnums Gender { get; set; }
-    public FactionEnums Faction { get; set; }
+    public StatusEnums Faction { get; set; }
 
-    public NPC(string name, GenderEnums gender, FactionEnums faction)
+    public NPC(string name, GenderEnums gender, StatusEnums faction = StatusEnums.None)
     {
         Name = name;
         Gender = gender;

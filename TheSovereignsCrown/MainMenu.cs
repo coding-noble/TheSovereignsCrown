@@ -18,5 +18,12 @@ namespace TheSovereignsCrown
             characterCreationPage.Show();
             this.Hide();
         }
+
+        private void informationBTN_Click(object sender, EventArgs e)
+        {
+            Information information = new Information();
+            information.Show();
+            this.Hide();
+        }
     }
 }

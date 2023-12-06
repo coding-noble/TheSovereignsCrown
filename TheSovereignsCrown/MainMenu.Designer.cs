@@ -87,6 +87,7 @@
             informationBTN.TabIndex = 3;
             informationBTN.Text = "Information";
             informationBTN.UseVisualStyleBackColor = false;
+            informationBTN.Click += informationBTN_Click;
             // 
             // quitGameBTN
             // 

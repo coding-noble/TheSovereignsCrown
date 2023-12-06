@@ -241,7 +241,7 @@
             BackgroundCB.Name = "BackgroundCB";
             BackgroundCB.Size = new Size(531, 53);
             BackgroundCB.TabIndex = 15;
-            BackgroundCB.SelectedIndexChanged += BackgroundCB_SelectedIndexChanged;
+            BackgroundCB.TextChanged += BackgroundCB_TextChanged;
             // 
             // BackgroundDescriptionLBL
             // 

@@ -43,6 +43,7 @@
             // 
             // ConfirmBackgroundLBL
             // 
+            ConfirmBackgroundLBL.Anchor = AnchorStyles.None;
             ConfirmBackgroundLBL.AutoSize = true;
             ConfirmBackgroundLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             ConfirmBackgroundLBL.ForeColor = Color.Goldenrod;
@@ -54,6 +55,7 @@
             // 
             // ConfirmClassLBL
             // 
+            ConfirmClassLBL.Anchor = AnchorStyles.None;
             ConfirmClassLBL.AutoSize = true;
             ConfirmClassLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             ConfirmClassLBL.ForeColor = Color.Goldenrod;
@@ -65,6 +67,7 @@
             // 
             // ConfirmGenderLBL
             // 
+            ConfirmGenderLBL.Anchor = AnchorStyles.None;
             ConfirmGenderLBL.AutoSize = true;
             ConfirmGenderLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             ConfirmGenderLBL.ForeColor = Color.Goldenrod;
@@ -76,6 +79,7 @@
             // 
             // ConfirmNameLBL
             // 
+            ConfirmNameLBL.Anchor = AnchorStyles.None;
             ConfirmNameLBL.AutoSize = true;
             ConfirmNameLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             ConfirmNameLBL.ForeColor = Color.Goldenrod;
@@ -117,6 +121,7 @@
             // 
             // ConfirmLBL
             // 
+            ConfirmLBL.Anchor = AnchorStyles.None;
             ConfirmLBL.AutoSize = true;
             ConfirmLBL.Font = new Font("Segoe UI", 50F, FontStyle.Bold);
             ConfirmLBL.ForeColor = Color.Goldenrod;
@@ -128,6 +133,7 @@
             // 
             // NameConfirmationLBL
             // 
+            NameConfirmationLBL.Anchor = AnchorStyles.None;
             NameConfirmationLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             NameConfirmationLBL.ForeColor = Color.Goldenrod;
             NameConfirmationLBL.Location = new Point(258, 135);
@@ -138,6 +144,7 @@
             // 
             // GenderConfirmationLBL
             // 
+            GenderConfirmationLBL.Anchor = AnchorStyles.None;
             GenderConfirmationLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             GenderConfirmationLBL.ForeColor = Color.Goldenrod;
             GenderConfirmationLBL.Location = new Point(258, 193);
@@ -148,6 +155,7 @@
             // 
             // ClassConfirmationLBL
             // 
+            ClassConfirmationLBL.Anchor = AnchorStyles.None;
             ClassConfirmationLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             ClassConfirmationLBL.ForeColor = Color.Goldenrod;
             ClassConfirmationLBL.Location = new Point(258, 254);
@@ -158,6 +166,7 @@
             // 
             // BackgroundConfirmationLBL
             // 
+            BackgroundConfirmationLBL.Anchor = AnchorStyles.None;
             BackgroundConfirmationLBL.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             BackgroundConfirmationLBL.ForeColor = Color.Goldenrod;
             BackgroundConfirmationLBL.Location = new Point(258, 313);
@@ -188,6 +197,7 @@
             MinimizeBox = false;
             Name = "CharacterConfirmation";
             Text = "Character Confirmation";
+            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
             PerformLayout();
         }

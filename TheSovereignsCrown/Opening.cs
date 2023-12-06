@@ -17,18 +17,7 @@ namespace TheSovereignsCrown
 
         private void GetBackstory()
         {
-            string jsonFileName = "narratives.json";
-            string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
-
-            string jsonFilePath = Path.GetFullPath(Path.Combine(directoryPath, jsonFileName));
-
-            string jsonDataString = File.ReadAllText(jsonFilePath);
-
-            using JsonDocument doc = JsonDocument.Parse(jsonDataString);
-
-            JsonElement root = doc.RootElement;
-            JsonElement openingStory = root
-                .GetProperty("narratives")
+            JsonElement openingStory = NarrativesJsonRoot
                 .GetProperty("openings")
                 .GetProperty(JsonPropertyFormatter(Program.loadedUser.Class))
                 .GetProperty(JsonPropertyFormatter(Program.loadedUser.Background));
@@ -55,8 +44,10 @@ namespace TheSovereignsCrown
                 }
                 else
                 {
-                    MessageBox.Show("No More");
-                    Program.mainMenu.Close();
+                    MessageBox.Show("No More. Only testing past this point");
+                    RoomDisplay roomDisplay = new RoomDisplay(Program.loadedUser.CurrentLocation);
+                    roomDisplay.Show();
+                    this.Close();
                 }
             }
             
