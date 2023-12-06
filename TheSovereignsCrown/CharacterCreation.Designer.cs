@@ -219,7 +219,7 @@
             // ClassDescriptionLBL
             // 
             ClassDescriptionLBL.Anchor = AnchorStyles.None;
-            ClassDescriptionLBL.Font = new Font("Segoe UI", 16F);
+            ClassDescriptionLBL.Font = new Font("Segoe UI", 24F);
             ClassDescriptionLBL.ForeColor = Color.Goldenrod;
             ClassDescriptionLBL.Location = new Point(372, 397);
             ClassDescriptionLBL.Name = "ClassDescriptionLBL";
@@ -246,7 +246,7 @@
             // BackgroundDescriptionLBL
             // 
             BackgroundDescriptionLBL.Anchor = AnchorStyles.None;
-            BackgroundDescriptionLBL.Font = new Font("Segoe UI", 16F);
+            BackgroundDescriptionLBL.Font = new Font("Segoe UI", 24F);
             BackgroundDescriptionLBL.ForeColor = Color.Goldenrod;
             BackgroundDescriptionLBL.Location = new Point(402, 789);
             BackgroundDescriptionLBL.Name = "BackgroundDescriptionLBL";

@@ -47,7 +47,7 @@
             // 
             // DescriptionBox
             // 
-            DescriptionBox.Font = new Font("Segoe UI", 16F);
+            DescriptionBox.Font = new Font("Segoe UI", 32F);
             DescriptionBox.ForeColor = Color.Goldenrod;
             DescriptionBox.Location = new Point(37, 147);
             DescriptionBox.Name = "DescriptionBox";
@@ -82,6 +82,7 @@
             MinimizeBox = false;
             Name = "Opening";
             Text = "Opening";
+            KeyUp += Opening_KeyUp;
             ResumeLayout(false);
             PerformLayout();
         }

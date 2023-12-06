@@ -35,32 +35,23 @@
                 case "Humble Beginnings":
                     ClassDescriptionLBL.Text = "Those with Humble Beginnings come from modest backgrounds, devoid of noble lineage or wealth. Their upbringing is marked by struggle and resilience, navigating life's challenges through hard work, resourcefulness, and community support. Despite lacking the advantages of nobility, they embody determination, empathy, and a profound connection to the common folk, earning respect through their perseverance and down-to-earth nature.";
                     BackgroundCB.Items.AddRange(new string[] {
-                        "Paradigm Challenger",
-                        "Rise from Humble Beginnings",
                         "Champion of the Common Folk",
                         "Outcast Survivor",
-                        "Aspiring Scholar/Artisan",
                         "Undercover Rebel"
                     });
                     break;
                 case "Faux Blue Blood":
                     ClassDescriptionLBL.Text = "The Faux Blue Blood emerges as a commoner masquerading as nobility, donning a fabricated lineage and adopting the trappings of aristocracy. They weave a web of deception, maneuvering through courts and social circles while concealing their true origins. Their intelligence, adaptability, and knack for espionage or manipulation allow them to seamlessly blend into elite circles, harboring secrets while playing a dangerous game of pretense.";
                     BackgroundCB.Items.AddRange(new string[] {
-                        "Courtly Favor and Hidden Rivalries",
-                        "Securing the Succession",
                         "Intrigue-riddled Courtier",
                         "Aspiring Scholar/Artisan",
-                        "Undercover Rebel",
-                        "Dual Identity Diplomat"
+                        "Undercover Rebel"
                     });
                     break;
                 case "Covert Lineage":
                     ClassDescriptionLBL.Text = "Those with a Covert Lineage possess hidden noble roots concealed beneath the veneer of commonality. Raised as commoners without knowledge of their true heritage, they embark on a journey to uncover their hidden lineage. Their quest for identity and the revelation of their noble roots drive them to navigate the worlds of both nobility and commoners, facing challenges of dual identity while striving to reclaim their rightful place.";
                     BackgroundCB.Items.AddRange(new string[] {
-                        "Concealed Legacy",
-                        "Heritage Unveiled",
-                        "Disdainful Disinheritance",
-                        "Ascension Ambition"
+                        "Heritage Unveiled"
                     });
                     break;
                 default:
