@@ -17,7 +17,7 @@
                 optionsMenu.Show();
             }
         }
-
+        0
         private void RoomDisplay_Load(object sender, EventArgs e)
         {
             LocationDisplayLBL.Text = LocationObj.Name;

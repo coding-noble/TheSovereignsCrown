@@ -1,32 +1,30 @@
 ﻿# Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+As a software engineer, I aimed to expand my knowledge by creating a Medieval-themed choose-your-own-adventure game. The software allows users to define their character's background, influencing the gameplay and interactions with non-player characters (NPCs). The primary focus was on developing a character creation menu within Visual Studio's Windows Form Applications, enabling users to select their class and background, consequently altering the game's narrative.
 
-{Provide a description of the software that you wrote.}
+The software is a Medieval-themed choose-your-own-adventure game. It features a character creation menu that allows users to choose their character's class and background. These choices affect the storyline and interactions within the game, providing a unique experience for each player based on their selections.
 
-{Describe your purpose for writing this software.}
+The purpose of developing this software was to gain practical experience in coding complex programs using Visual Studio's Windows Form Applications. Through this project, I aimed to understand and implement the mechanics behind creating a dynamic character creation system that significantly impacts the game's progression and storyline.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/LFDRtagfVUM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+IDE: Visual Studio
+Programming Language: C#
+Framework: Windows Form Applications
+Data Storage: JSON
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [C# documentation (Microsoft)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [C# documentation (W2Schools)](https://www.w3schools.com/cs/index.php)
+- [Windows Forms documentation](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0)
+- [JavaScript JSON](https://www.w3schools.com/js/js_json.asp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+Implement gameplay past the opening scene.
+Implement branching storylines based on the user's class and background choices for a more diverse gameplay experience.
+Enhance NPC interactions to further reflect the impact of the character's background on the game's narrative.
+Add additional character customization options or expand on existing choices to provide more depth to the character creation process.
