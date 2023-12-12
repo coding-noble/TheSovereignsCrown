@@ -1,4 +1,4 @@
-0{
+{
   "class-descriptions": {
     "courtly-scion": {
       "description": "A Courtly Scion is born into nobility, raised in opulence, and groomed for the complexities of courtly life. They inherit titles, privileges, and connections, excelling in the art of diplomacy and navigating the intricate social structures of high society. Trained in etiquette, they possess a refined demeanor, strategic wit, and access to resources that influence the court's power plays.",
@@ -121,8 +121,5 @@
         "conclusion": "Your journey from commoner to the true heir of a noble lineage hinges on your ability to uncover the truth behind your heritage. Your ultimate goal: to claim your rightful place amidst the noble hierarchy, wielding your newfound identity and navigating the intricate web of courtly affairs."
       }
     }
-  },
-  "test-dialogue": {
-
   }
 }
