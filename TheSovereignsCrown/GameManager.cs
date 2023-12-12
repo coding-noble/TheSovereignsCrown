@@ -39,16 +39,19 @@
         public static CommonerNPC RetiredSailor = new CommonerNPC("Captain Jonathan Storm", GenderEnums.Male);
 
 
-        public static Location ThroneRoom = new Location("Throne Room", "");
-        public static Location RoyalChambers = new Location("Royal Chambers", "");
-        public static Location CouncilRoom = new Location("Council Room", "");
-        public static Location TrainingGrounds = new Location("Training Grounds", "");
-        public static Location Gardens = new Location("Gardens", "");
-        public static Location Stables = new Location("Stables", "");
-        public static Location MarketPlace = new Location("Market Place", "");
-        public static Location ResidentialDistrict = new Location("Residential District", "");
-        public static Location FarmLands = new Location("Farm Lands", "");
-        public static Location Woods = new Location("Woods", "");
-        public static Location Riverbank = new Location("Riverbank", "");
+        public static Location ThroneRoom = new Location("Throne Room", "Needs A Description");
+        public static Location RoyalChambers = new Location("Royal Chambers", "Needs A Description");
+        public static Location CouncilRoom = new Location("Council Room", "Needs A Description", new List<NPC>()
+        {
+            ArabellaRavenscroft, EvelynAshbourne, ElaraWhitmore, CedricHawthorne, EdmundBlackwell, WilliamMontague, HarrisonRedcliffe
+        });
+        public static Location TrainingGrounds = new Location("Training Grounds", "Needs A Description");
+        public static Location Gardens = new Location("Gardens", "Needs A Description");
+        public static Location Stables = new Location("Stables", "Needs A Description");
+        public static Location MarketPlace = new Location("Market Place", "Needs A Description");
+        public static Location ResidentialDistrict = new Location("Residential District", "Needs A Description");
+        public static Location FarmLands = new Location("Farm Lands", "Needs A Description");
+        public static Location Woods = new Location("Woods", "Needs A Description");
+        public static Location Riverbank = new Location("Riverbank", "Needs A Description");
     }
 }

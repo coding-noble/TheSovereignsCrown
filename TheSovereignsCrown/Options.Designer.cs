@@ -41,7 +41,7 @@
             MapBTN.BackColor = Color.Black;
             MapBTN.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             MapBTN.ForeColor = Color.Goldenrod;
-            MapBTN.Location = new Point(863, 503);
+            MapBTN.Location = new Point(863, 712);
             MapBTN.Name = "MapBTN";
             MapBTN.Size = new Size(232, 64);
             MapBTN.TabIndex = 2;
@@ -83,7 +83,7 @@
             EndGameBTN.BackColor = Color.Black;
             EndGameBTN.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             EndGameBTN.ForeColor = Color.Goldenrod;
-            EndGameBTN.Location = new Point(863, 886);
+            EndGameBTN.Location = new Point(863, 852);
             EndGameBTN.Name = "EndGameBTN";
             EndGameBTN.Size = new Size(232, 64);
             EndGameBTN.TabIndex = 5;

@@ -21,6 +21,17 @@
         private void RoomDisplay_Load(object sender, EventArgs e)
         {
             LocationDisplayLBL.Text = LocationObj.Name;
+            RoomDescriptionTT.SetToolTip(LocationDisplayLBL, LocationObj.Description);
+
+            foreach (NPC npc in LocationObj.NPCs)
+            {
+                NPCListLB.Items.Add(npc.Name);
+            }
+        }
+
+        private void ContinueDialogueBTN_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

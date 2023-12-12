@@ -126,7 +126,7 @@ namespace TheSovereignsCrown
 
         public string? GetBackground()
         {
-            return BackgroundCB.SelectedItem as string;
+            return BackgroundCB.Text;
         }
     }
 }
